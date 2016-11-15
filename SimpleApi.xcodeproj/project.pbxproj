@@ -11,15 +11,37 @@
 		705932561DD9615200539D27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705932551DD9615200539D27 /* ViewController.swift */; };
 		7059325B1DD9615200539D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7059325A1DD9615200539D27 /* Assets.xcassets */; };
 		7059325E1DD9615200539D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7059325C1DD9615200539D27 /* LaunchScreen.storyboard */; };
+		705932671DD9692C00539D27 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705932651DD9692C00539D27 /* LoginController.swift */; };
+		705932681DD9692C00539D27 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 705932661DD9692C00539D27 /* LoginController.xib */; };
+		7059326F1DDABD4A00539D27 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7059326D1DDABD4A00539D27 /* RegisterController.swift */; };
+		705932701DDABD4A00539D27 /* RegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7059326E1DDABD4A00539D27 /* RegisterController.xib */; };
+		705932721DDB017100539D27 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705932711DDB017100539D27 /* TabBarController.swift */; };
+		705932751DDB02DC00539D27 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705932731DDB02DC00539D27 /* MainController.swift */; };
+		705932761DDB02DC00539D27 /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 705932741DDB02DC00539D27 /* MainController.xib */; };
+		705932791DDB030100539D27 /* MeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705932771DDB030100539D27 /* MeController.swift */; };
+		7059327A1DDB030100539D27 /* MeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 705932781DDB030100539D27 /* MeController.xib */; };
+		EA5225B7B711CB29B67C4B98 /* Pods_SimpleApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7120D18016F06EFC8BBFB0D /* Pods_SimpleApi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		556C62C7E3AB27E37669F659 /* Pods-SimpleApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleApi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleApi/Pods-SimpleApi.debug.xcconfig"; sourceTree = "<group>"; };
 		705932501DD9615200539D27 /* SimpleApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		705932531DD9615200539D27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		705932551DD9615200539D27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7059325A1DD9615200539D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7059325D1DD9615200539D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7059325F1DD9615200539D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705932651DD9692C00539D27 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		705932661DD9692C00539D27 /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		7059326D1DDABD4A00539D27 /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		7059326E1DDABD4A00539D27 /* RegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterController.xib; sourceTree = "<group>"; };
+		705932711DDB017100539D27 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		705932731DDB02DC00539D27 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		705932741DDB02DC00539D27 /* MainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainController.xib; sourceTree = "<group>"; };
+		705932771DDB030100539D27 /* MeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeController.swift; sourceTree = "<group>"; };
+		705932781DDB030100539D27 /* MeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeController.xib; sourceTree = "<group>"; };
+		90EB39DA0505EF7C0CE09E1D /* Pods-SimpleApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleApi.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleApi/Pods-SimpleApi.release.xcconfig"; sourceTree = "<group>"; };
+		C7120D18016F06EFC8BBFB0D /* Pods_SimpleApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5225B7B711CB29B67C4B98 /* Pods_SimpleApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08ED3BA9581ADD23A6C2978E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7120D18016F06EFC8BBFB0D /* Pods_SimpleApi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		705932471DD9615200539D27 = {
 			isa = PBXGroup;
 			children = (
 				705932521DD9615200539D27 /* SimpleApi */,
 				705932511DD9615200539D27 /* Products */,
+				FAD38C6032E5EE530C279866 /* Pods */,
+				08ED3BA9581ADD23A6C2978E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,11 +87,29 @@
 			children = (
 				705932531DD9615200539D27 /* AppDelegate.swift */,
 				705932551DD9615200539D27 /* ViewController.swift */,
+				705932731DDB02DC00539D27 /* MainController.swift */,
+				705932741DDB02DC00539D27 /* MainController.xib */,
+				705932771DDB030100539D27 /* MeController.swift */,
+				705932781DDB030100539D27 /* MeController.xib */,
+				705932711DDB017100539D27 /* TabBarController.swift */,
+				705932651DD9692C00539D27 /* LoginController.swift */,
+				705932661DD9692C00539D27 /* LoginController.xib */,
+				7059326D1DDABD4A00539D27 /* RegisterController.swift */,
+				7059326E1DDABD4A00539D27 /* RegisterController.xib */,
 				7059325A1DD9615200539D27 /* Assets.xcassets */,
 				7059325C1DD9615200539D27 /* LaunchScreen.storyboard */,
 				7059325F1DD9615200539D27 /* Info.plist */,
 			);
 			path = SimpleApi;
+			sourceTree = "<group>";
+		};
+		FAD38C6032E5EE530C279866 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				556C62C7E3AB27E37669F659 /* Pods-SimpleApi.debug.xcconfig */,
+				90EB39DA0505EF7C0CE09E1D /* Pods-SimpleApi.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 705932621DD9615200539D27 /* Build configuration list for PBXNativeTarget "SimpleApi" */;
 			buildPhases = (
+				2810F7F79131C783EF02D142 /* [CP] Check Pods Manifest.lock */,
 				7059324C1DD9615200539D27 /* Sources */,
 				7059324D1DD9615200539D27 /* Frameworks */,
 				7059324E1DD9615200539D27 /* Resources */,
+				DADB72D484307C396BBBEE3D /* [CP] Embed Pods Frameworks */,
+				FD6D71ADD4CAFF5ED1A79C67 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -121,19 +175,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				705932701DDABD4A00539D27 /* RegisterController.xib in Resources */,
+				705932761DDB02DC00539D27 /* MainController.xib in Resources */,
 				7059325E1DD9615200539D27 /* LaunchScreen.storyboard in Resources */,
+				705932681DD9692C00539D27 /* LoginController.xib in Resources */,
 				7059325B1DD9615200539D27 /* Assets.xcassets in Resources */,
+				7059327A1DDB030100539D27 /* MeController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2810F7F79131C783EF02D142 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DADB72D484307C396BBBEE3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleApi/Pods-SimpleApi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD6D71ADD4CAFF5ED1A79C67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleApi/Pods-SimpleApi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7059324C1DD9615200539D27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7059326F1DDABD4A00539D27 /* RegisterController.swift in Sources */,
 				705932561DD9615200539D27 /* ViewController.swift in Sources */,
+				705932671DD9692C00539D27 /* LoginController.swift in Sources */,
+				705932721DDB017100539D27 /* TabBarController.swift in Sources */,
+				705932791DDB030100539D27 /* MeController.swift in Sources */,
+				705932751DDB02DC00539D27 /* MainController.swift in Sources */,
 				705932541DD9615200539D27 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,11 +356,14 @@
 		};
 		705932631DD9615200539D27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556C62C7E3AB27E37669F659 /* Pods-SimpleApi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5L97QMG3W8;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = SimpleApi/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.acewu.SimpleApi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -259,11 +373,14 @@
 		};
 		705932641DD9615200539D27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90EB39DA0505EF7C0CE09E1D /* Pods-SimpleApi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5L97QMG3W8;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = SimpleApi/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.acewu.SimpleApi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,6 +407,7 @@
 				705932641DD9615200539D27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

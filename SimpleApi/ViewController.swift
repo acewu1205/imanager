@@ -7,19 +7,28 @@
 //
 
 import UIKit
+import SwiftyJSON
+import SnapKit
+
 
 class ViewController: UIViewController {
 
+    lazy var box = UIView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        view.backgroundColor = UIColor.cyan
+        box.backgroundColor = UIColor.red
+        view.addSubview(box)
+        box.snp.makeConstraints { (make) in
+            make.width.height.equalTo(100)
+            make.center.equalTo(view)
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
